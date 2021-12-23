@@ -693,10 +693,11 @@ h1 {
     text-align: center;
   }
   .span_content h6 {
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
     align-items: center;
-    margin-left: 25%;
+    margin-left:15px ;
+    margin-right: 15px;
   }
   h1 {
     position: relative;
@@ -749,7 +750,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     position: relative;
-    margin-top: 1850px;
+    margin-top: 2000px;
     margin-left: 10%;
     width: 80%;
   }
@@ -989,4 +990,5 @@ h1 {
     padding-top: 12px;
     font-size: 10px;
   }
+  
 }
