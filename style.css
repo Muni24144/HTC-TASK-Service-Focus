@@ -187,7 +187,18 @@ body {
   font-size: 16px;
   transition: 0.6s;
 }
+.nav-link:nth-child(7) {
+  border: 1px solid #0f2976;
+  border-radius: 6px;
+  color: #0f2976;
+}
 .nav-link:hover {
+  border: 1px solid #0f2976;
+  border-radius: 6px;
+  color: #0f2976;
+  transform: translateY(-5px);
+}
+.nav-link:nth-child(7):hover {
   border: 1px solid #0f2976;
   border-radius: 6px;
   color: #0f2976;
