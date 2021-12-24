@@ -2,7 +2,6 @@
 .img1 {
   margin-left: 8%;
   width: 250px;
-  height: 100px;
   transition-duration: 0.6s;
 }
 .img1:hover {
@@ -470,7 +469,6 @@ h1 {
   border: none;
   margin-left: 5%;
   margin-top: 25px;
-  /* margin-bottom: 20px; */
   padding: 10px 20px 10px 20px;
   border-radius: 6px;
   border: none;
@@ -631,8 +629,7 @@ h1 {
   color: whitesmoke;
   font-weight: 500;
 }
-/* ////////////////////////////////////////////////////////
-/////////////////////////////////////////// */
+/* ////////////////////////{ media quaries }/////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 768px) {
   .nav {
     display: none;
@@ -694,7 +691,6 @@ h1 {
     text-align: center;
   }
   .span_content h6 {
-    /* width: 50%; */
     text-align: center;
     align-items: center;
     margin-left:15px ;
@@ -730,13 +726,41 @@ h1 {
   .img6 {
     top: 920px;
   }
-  .img8 {
-    left: 100px;
+  .img8,
+  .img9,
+  .img10,
+  .img13,
+  .img18,
+  .img12,
+  .img14,
+  .img15,
+  hr {
+    display: none;
   }
   .img11,
   .img17 {
     margin-left: 0px;
     width: 90%;
+  }
+  .img19 {
+    width: 50%;
+    margin-left: 30%;
+  }
+  .img21 {
+    width: 20%;
+  }
+  .img22 {
+    margin-top: 250px;
+  }
+  .img23 {
+    width: 120px;
+    height: 120px;
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+  .img24 {
+    margin-left: 0px;
+    width: 100%;
   }
   /* /////////////////////////////////////// */
   .row_cards {
@@ -799,10 +823,6 @@ h1 {
   .unique_needs1 {
     width: 70%;
   }
-  .img19 {
-    width: 50%;
-    margin-left: 30%;
-  }
   .safe_secure_1,
   .self_service1 {
     margin-left: 0px;
@@ -812,18 +832,7 @@ h1 {
   .carousel-inner {
     width: 100%;
   }
-  .img23 {
-    width: 120px;
-    height: 120px;
-    margin-left: -30%;
-    margin-top: 0%;
-  }
-  .img21 {
-    width: 20%;
-  }
-  .img22 {
-    margin-top: 250px;
-  }
+
   .slider_carousel {
     width: 100%;
     margin-left: 0%;
@@ -880,7 +889,6 @@ h1 {
     padding-bottom: 10px;
     margin-left: 10%;
   }
-
   .circle {
     top: 3680px;
     margin-left: 30%;
@@ -889,26 +897,6 @@ h1 {
     margin-left: 40%;
     top: 3700px;
   }
-  .img8 {
-    margin-left: 0px;
-  }
-
-  /* ///////////////////////////////// */
-  .img8,
-  .img9,
-  .img10,
-  .img13,
-  .img18,
-  .img12,
-  .img14,
-  .img15,
-  hr {
-    display: none;
-  }
-  .img23 {
-    margin-left: 10%;
-  }
-  /* //////////////////////////////////// */
   .btn1 {
     margin-top: 1950px;
     margin-left: 35%;
@@ -923,10 +911,6 @@ h1 {
   .self_service button,
   .make_better button {
     margin-left: 10%;
-  }
-  .img24 {
-    margin-left: 0px;
-    width: 100%;
   }
   .bottom_line {
     width: 100%;
