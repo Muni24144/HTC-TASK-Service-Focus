@@ -250,6 +250,9 @@ h1 {
   height: inherit;
   transition: 0.6s;
 }
+.card_div{
+  text-align: center;
+}
 .card:hover {
   transform: translateY(-15px);
 }
@@ -745,6 +748,9 @@ h1 {
   }
   .card {
     min-height: 260px;
+  }
+  .card_div{
+    text-align: center;
   }
   .module_row1 {
     display: grid;
