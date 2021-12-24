@@ -247,7 +247,7 @@ h1 {
   height: inherit;
   transition: 0.6s;
 }
-.card_div{
+.card_div {
   text-align: center;
 }
 .card:hover {
@@ -693,7 +693,7 @@ h1 {
   .span_content h6 {
     text-align: center;
     align-items: center;
-    margin-left:15px ;
+    margin-left: 15px;
     margin-right: 15px;
   }
   h1 {
@@ -773,7 +773,7 @@ h1 {
   .card {
     min-height: 260px;
   }
-  .card_div{
+  .card_div {
     text-align: center;
   }
   .module_row1 {
@@ -943,7 +943,6 @@ h1 {
   .span_content {
     top: 400px;
   }
-
   h1 {
     margin-top: 25%;
   }
@@ -980,5 +979,4 @@ h1 {
     padding-top: 12px;
     font-size: 10px;
   }
-  
 }
